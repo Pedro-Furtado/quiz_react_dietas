@@ -1,0 +1,33 @@
+.containerImgProvas .item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+.containerImgProvas .item img{
+    width: 100%;
+    height: auto;
+}
+.containerImgProvas .item .results{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to top, rgb(134, 50, 50), rgba(255, 255, 255, 0));
+}
+.containerImgProvas .item .results span{
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+}
+.containerImgProvas .item .results .boldResults{
+    font-size: 30px;
+    font-weight: bold;
+}

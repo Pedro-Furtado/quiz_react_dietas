@@ -1,0 +1,33 @@
+.containerMenu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: var(--backGroundPrincipal);
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+}
+.containerMenu.open {
+    transform: translateX(0);
+}
+
+.containerMenu header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.containerMenu .btnPage{
+    padding-block: 15px;
+    border-bottom: solid 1px #ccc;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+

@@ -1,0 +1,12 @@
+.divBtnObter{
+    width: 100%;
+    padding-inline: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.btnObter{
+    width: 100%;
+    align-self: center;
+}

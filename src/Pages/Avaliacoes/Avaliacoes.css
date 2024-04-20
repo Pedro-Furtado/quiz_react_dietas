@@ -1,0 +1,70 @@
+.containerAvaliacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.containerAvaliacoes header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.containerAvaliacoes .divContent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 600px;
+}
+.containerAvaliacoes .divContent .clienteDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.containerAvaliacoes .divContent .clienteDiv img{
+    width: 60%;
+    border-radius: 50%;
+    border: solid 5px var(--bgRoxo);
+}
+.containerAvaliacoes .bold{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.containerAvaliacoes .divContent .clienteDiv .border{
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 40px;
+    background-color: var(--bgRoxoClaro);
+    color: var(--bgRoxo);
+    margin-top: 10px;
+}
+.containerAvaliacoes .divContent .clienteDiv .text{
+    font-style: italic;
+    width: 80%;
+    margin-top: 20px;
+}
+.containerAvaliacoes .textCenter{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.containerAvaliacoes .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    color: #FFF;
+}
+.containerAvaliacoes .mulher{
+    background-color: var(--bgBtnMulher);
+}
+.containerAvaliacoes .homem{
+    background-color: var(--bgBtnHomem);
+}

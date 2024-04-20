@@ -1,0 +1,33 @@
+.containerObterReembolso{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--bgClaro);
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.containerObterReembolso img{
+    width: 80%;
+}
+.containerObterReembolso .headline{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+.containerObterReembolso .text{
+    font-size: 18px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.containerObterReembolso .dicasDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}

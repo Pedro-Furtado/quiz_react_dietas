@@ -1,0 +1,72 @@
+.containerPercaPeso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--backGroundSecundario);
+}
+.containerPercaPeso header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+.containerPercaPeso .text{
+    width: 90%;
+}
+.containerPercaPeso .mid{
+    font-size: 18px;
+    font-weight: bold;
+}
+.containerPercaPeso .great{
+    font-size: 30px;
+    font-weight: bold;
+}
+.containerPercaPeso .small{
+    font-size: 15px;
+    
+}
+.containerPercaPeso .checkDiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.containerPercaPeso .btnEntendi{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: var(--colorPrincipal);
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.containerPercaPeso .divImg{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.containerPercaPeso .divImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+.containerPercaPeso .contentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; 
+}

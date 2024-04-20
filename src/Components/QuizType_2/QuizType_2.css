@@ -1,0 +1,18 @@
+.containerQuizType_2{
+    display: flex;
+    flex-direction: column;
+}
+.containerQuizType_2 .quest{
+    padding: 20px;
+    max-width: 600px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.containerQuizType_2 .btnQuest{
+    margin-top: 10px;
+}
+.containerQuizType_2 .btnProximo{
+    margin-top: 20px;
+}

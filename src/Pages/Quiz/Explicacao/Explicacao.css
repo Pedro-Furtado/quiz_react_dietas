@@ -1,0 +1,27 @@
+.containerQuiz{
+    padding: 20px;
+}
+.containerQuiz .bold{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.containerQuiz .checks{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.containerQuiz .btnEntendi{
+    display: flex;
+    background-color: var(--colorPrincipal);
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+}

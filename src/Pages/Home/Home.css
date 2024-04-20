@@ -1,0 +1,43 @@
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.containerHome header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerHome h2{
+    color: var(--colorPrincipal);
+}
+.containerHome h3{
+    color: var(--colorTextSecundario);
+}
+.containerHome .btnsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.containerHome .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+    color: var(--colorButtons);
+    cursor: pointer;
+    transition: .4s;
+}
+.containerHome .btn:hover{
+    opacity: .9;
+}
+.containerHome .mulher{
+    background-color: var(--colorPrincipal);
+}
+.containerHome .homem{
+    background-color: var(--colorSecundaria);
+}
+.containerHome .imgCapa{
+    width: 100%;
+}

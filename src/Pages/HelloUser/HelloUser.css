@@ -1,0 +1,50 @@
+.containerHelloUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    min-height: 100vh;
+    gap: 30px;
+}
+.containerHelloUser header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+}
+.containerHelloUser header img{
+    width: 100%;
+    
+}
+.containerHelloUser span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.containerHelloUser button{
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--colorPrincipal);
+    color: #FFF;
+}
+.containerHelloUser .textGreen{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--colorCheck);
+}
+.containerHelloUser .textBold{
+    font-size: 18px;
+    font-weight: bold
+}

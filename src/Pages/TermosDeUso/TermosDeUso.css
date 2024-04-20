@@ -1,0 +1,14 @@
+.containerTermosDeUso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerTermosDeUso .divText{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.containerTermosDeUso .divText .bold{
+    font-weight: bold;
+    margin-top: 15px;
+}

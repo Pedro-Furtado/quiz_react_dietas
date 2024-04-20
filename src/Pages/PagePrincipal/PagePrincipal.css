@@ -1,0 +1,389 @@
+.containerPagePrincipal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--backGroundSecundario);
+    min-height: 100vh;
+}
+.containerPagePrincipal .headLine{
+    font-size: 30px;
+}
+.containerPagePrincipal .headLine span{
+    color: var(--colorPrincipal);
+}
+.containerPagePrincipal .copy{
+    font-size: 14px;
+    width: 100%;
+    max-width: 600px;
+}
+.containerPagePrincipal .grapfDiv{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--backGroundPrincipal);
+    margin-bottom: 20px;
+    padding-block: 20px;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv span{
+    font-weight: bold;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv .peso3{
+    color: #ccc;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv .peso2{
+    color: #a7a7a7;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv .peso1{
+    color: #686868;
+}
+.containerPagePrincipal .grapfDiv .pesosDiv .pesoAtual{
+    font-size: 30px;
+}
+.containerPagePrincipal .grapfDiv .spanSmall{
+    font-size: 12px;
+    font-weight: bold;
+}
+.containerPagePrincipal .divContent{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--backGroundPrincipal);
+    padding-block: 20px;
+    margin-bottom: 20px;
+}
+.containerPagePrincipal .divContent .porcentValue{
+    font-size: 60px;
+    font-weight: bold;
+}
+.containerPagePrincipal .divContent .porcentText{
+    font-size: 25px;
+}
+.containerPagePrincipal .divContent .text{
+    font-size: 14px;
+}
+.containerPagePrincipal .divContent .daysDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.containerPagePrincipal .divContent .daysDiv .divDay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.containerPagePrincipal .divContent .daysDiv .divDay .semana{
+    color: #949494;
+}
+.containerPagePrincipal .divContent .daysDiv .divDay .dia{
+    font-weight: bold;
+}
+.containerPagePrincipal .divContent .pesoPerdido{
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--colorPrincipal);
+}
+.containerPagePrincipal .divContent .spanCopy{
+    font-size: 14px;
+}
+.containerPagePrincipal .divContent .imcText{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.containerPagePrincipal .divContent .imcText span{
+    background-color:#e2e2e2;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.containerPagePrincipal .divContent .IMC{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--colorPrincipal);
+    margin-right: 10px;
+}
+.containerPagePrincipal .divContent .statusIMC{
+    color: var(--colorPrincipal);
+    font-weight: bold;
+}
+.containerPagePrincipal .divContent .divBarImc{
+    display: flex;
+    gap: 3px;
+    width: 90%;
+}
+.containerPagePrincipal .divContent .barImc{
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.containerPagePrincipal .divContent .barImc div{
+    width: 3px;
+    height: 20px;
+    border-radius: 5px;
+}
+.containerPagePrincipal .divContent .blue div{
+    background-color: var(--colorBluesLight);
+}
+.containerPagePrincipal .divContent .green div{
+    background-color: var(--colorGreenLight);
+}
+.containerPagePrincipal .divContent .red div{
+    background-color: var(--colorRedLight);
+}
+.containerPagePrincipal .divContent .divNivelIMC{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerPagePrincipal .divContent .nivelIMC{
+    font-size: 12px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerPagePrincipal .divContent .blue{
+    color: var(--colorBluesLight);
+}
+.containerPagePrincipal .divContent .green{
+    color: var(--colorGreenLight);
+}
+.containerPagePrincipal .divContent .red{
+    color: var(--colorRedLight);
+}
+.containerPagePrincipal .divContent .divMarcadorIMC{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divMarcadorIMC div {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 3px;
+}
+.divMarcadorIMC .Abaixo{
+    border-top: 10px solid var(--colorBluesLight);
+}
+.divMarcadorIMC .Normal{
+    border-top: 10px solid var(--colorGreenLight);
+}
+.divMarcadorIMC .Obeso{
+    border-top: 10px solid var(--colorRedLight);
+}
+.grafico{
+    width: 80%;
+    max-width: 500px;
+    max-height: 260px;
+    height: 40vw;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #e9f3fd;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.grafico .graficoGrade{
+    height: 100%;
+    width: 25%;
+}
+.grafico .cantoLeft{
+    border-right: solid 1px #ccc;
+}
+.grafico .meio{
+    border-right: solid 1px #ccc;
+}
+.grafico .cantoRight{
+    border-left: solid 1px #ccc;
+}
+.grafico .linhaGrafico{
+    width: 100%;
+    position: absolute;
+}
+.grafico .linhaGrafico img{
+    width: 100%;
+}
+.grafico .labelGrafico{
+    position: absolute;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 3px;
+}
+.grafico .atual{
+    left: 50px;
+    top: 6px;
+}
+.grafico .alvo{
+    right: 30px;
+    bottom: 50px;
+    color: var(--colorPrincipal);
+}
+.divCorpo{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.divCorpo .divAntesDepois{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+}
+.divCorpo .divImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.divCorpo .divImg img{
+    width: 16vw;
+    height: 40vw;
+    max-width: 100px;
+    max-height: 280px;
+}
+.divCorpo .locaisCorpo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divCorpo .locaisCorpo div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.divCorpo .locaisCorpo div span{
+    z-index: 1000;
+    background-color: #FFF;
+    padding: 3px;
+    font-size: 13px;
+}
+.divCorpo .locaisCorpo div .line{
+    border-bottom: solid 1px #ccc;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.divCorpo .locaisCorpo div .porcent{
+    color: var(--colorGreenLight);
+}
+.btnObter{
+    background-color: var(--colorPrincipal);
+    width: 95%;
+    max-width: 570px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: var(--colorTextButton);
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btnObter:hover{
+    background-color: var(--colorButtonHover);
+}
+.divCopyEscolher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--bgClaro);
+    padding: 20px;
+}
+.divCopyEscolher .copy{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.divCopyEscolher .copy div{
+    display: flex;
+    flex-direction: column;
+}
+.divCopyEscolher .copy .label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.divImgReceitas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.divImgReceitas img{
+    width: 100%;
+}
+.divTextReceitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divTextReceitas .label{
+    font-size: 45px;
+    font-weight: bold;
+}
+.containerPilula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colorButtonQuest);
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.containerPilula span{
+    text-align: center;
+}
+.containerPilula i{
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+}
+.containerPagePrincipal .contentDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}

@@ -1,0 +1,15 @@
+.containerProvaSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.containerProvaSocial .bold{
+    font-weight: 600;
+    color: var(--colorPrincipal);
+}
