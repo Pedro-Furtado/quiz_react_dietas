@@ -1,6 +1,7 @@
 import '../Explicacao/Explicacao.css'
 import { Link, useParams } from 'react-router-dom';
 import { FaCircleCheck } from "react-icons/fa6";
+import suaurl from '../../../main';
 
 function Explicacao() {
     const params = useParams()
@@ -43,7 +44,7 @@ function Explicacao() {
                     <FaCircleCheck color='rgb(16, 179, 16)' size={20}/>
                     <span>Maior eficiência energética</span>
                 </div>
-                <Link to={`/keto/quiz/${params.genero}/quiz-${pageNumber + 1}`} className='btnEntendi'>
+                <Link to={`/${suaurl}/quiz/${params.genero}/quiz-${pageNumber + 1}`} className='btnEntendi'>
                     <span>Entendi</span>
                 </Link>
             </div>

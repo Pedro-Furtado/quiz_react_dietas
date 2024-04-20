@@ -9,7 +9,7 @@ function Quiz6() {
   const Response = [
     {
       id: 1,
-      quest: 'Eu só quero experimentar a dieta keto',
+      quest: 'Eu só quero experimentar a dieta',
     },
     {
       id: 2,

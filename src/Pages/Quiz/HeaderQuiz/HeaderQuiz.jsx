@@ -2,6 +2,7 @@ import './HeaderQuiz.css'
 import { Link, useParams } from 'react-router-dom';
 import { IoIosArrowBack } from "react-icons/io";
 import { useEffect, useState } from 'react';
+import suaurl from '../../../main';
 
 function HeaderQuiz() {
     const [progressWidth, setProgressWidth] = useState(0);
@@ -9,7 +10,7 @@ function HeaderQuiz() {
 
     const pageNumber = parseInt(params.page.split('-')[1], 10);
 
-    const toLink = pageNumber > 1 ? `/keto/quiz/${params.genero}/quiz-${pageNumber - 1}` : '/keto/';
+    const toLink = pageNumber > 1 ? `/${suaurl}/quiz/${params.genero}/quiz-${pageNumber - 1}` : `/${suaurl}/`;
 
     const animationBar = (pageNumber) => {
         const newWidth = pageNumber * 11; // Adjust the multiplier as needed

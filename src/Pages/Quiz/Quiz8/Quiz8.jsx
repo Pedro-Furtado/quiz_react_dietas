@@ -2,6 +2,7 @@ import '../QuizGeral/QuizGeral.css'
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { FaAngleRight } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
+import suaurl from '../../../main';
 
 function Quiz8() {
     const params = useParams()
@@ -43,7 +44,7 @@ function Quiz8() {
         }
     }, []);
 
-    let mainPage = `/keto/quiz/${params.genero}/mainpage`
+    let mainPage = `/${suaurl}/quiz/${params.genero}/mainpage`
 
     const salvarInfos = () => {
         if (idade === '' || altura === '' || pesoAtual === '' || pesoAlvo === '') {

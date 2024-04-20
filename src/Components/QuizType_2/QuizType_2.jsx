@@ -6,6 +6,7 @@ import { IoCheckbox } from "react-icons/io5";
 import { FaSquareXmark } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
+import suaurl from '../../main';
 
 function QuizType_2({quest, options_1, options_2, options_3}) {
     const params = useParams()
@@ -61,7 +62,7 @@ function QuizType_2({quest, options_1, options_2, options_3}) {
     }, [clickResponse3]);
 
     const pageNumber = parseInt(params.page.split('-')[1], 10);
-    let proximaPagina = `/keto/quiz/${params.genero}/quiz-${pageNumber + 1}`;
+    let proximaPagina = `/${suaurl}/quiz/${params.genero}/quiz-${pageNumber + 1}`;
 
     const salvarResposta = () => {
         if(clickResponse){

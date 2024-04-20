@@ -5,6 +5,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 import Logo from '../../Images/Logo.png'
 
 import Graph from '../../Images/graph-mobile.png'
+import suaurl from '../../main';
 
 function PercaPeso() {
     const params = useParams()
@@ -41,7 +42,7 @@ function PercaPeso() {
                     </div>                
                     <span>Esqueça as taxas ocultas</span>
                 </div>
-                <Link className='btnEntendi' to={`/keto/quiz/${params.genero}/plano`}>
+                <Link className='btnEntendi' to={`/${suaurl}/quiz/${params.genero}/plano`}>
                     <span>ENTENDI</span>
                 </Link>
             </div>

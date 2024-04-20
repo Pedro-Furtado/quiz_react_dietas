@@ -10,6 +10,7 @@ import img_4 from '../../Images/Provas_3/avali_4.png'
 import img_5 from '../../Images/Provas_3/avali_5.png'
 import img_6 from '../../Images/Provas_3/avali_6.png'
 import img_7 from '../../Images/Provas_3/avali_7.png'
+import suaurl from '../../main';
 
 function Avaliacoes() {
     const clientes = [
@@ -95,11 +96,11 @@ function Avaliacoes() {
                     </div>
                 ))}
                 <span className='textCenter'>Complete nosso teste de 60 segundos e <span className='bold'>obtenha seu próprio plano de dieta Keto !</span> Comece selecionando seu gênero:</span>
-                <Link to={'/keto/quiz/mulher/quiz-1'} className='btn mulher'>
+                <Link to={`/${suaurl}/quiz/mulher/quiz-1`} className='btn mulher'>
                     <span>Mulher</span>
                     <FaAngleRight />
                 </Link>
-                <Link to={'/keto/quiz/homem/quiz-1'} className='btn homem'>
+                <Link to={`/${suaurl}/quiz/homem/quiz-1`} className='btn homem'>
                     <span>Homem</span>
                     <FaAngleRight />
                 </Link>

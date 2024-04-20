@@ -5,9 +5,7 @@ import { FaFemale } from "react-icons/fa";
 import { FaMale } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-
-import Logo from '../../Images/Logo.png'
-//import imgCapa from '../../Images/imgcapa.png'
+import suaurl from '../../main';
 
 function Home({abrirMenu}) {
 
@@ -21,14 +19,14 @@ function Home({abrirMenu}) {
             <h2>Comece a perder peso em poucos dias</h2>
             <h3>Selecione o tipo de dieta:</h3>
             <div className='btnsDiv'>
-                <Link style={{textDecoration: 'none'}} to={'/keto/quiz/mulher/quiz-1'}>
+                <Link style={{textDecoration: 'none'}} to={`/${suaurl}/quiz/mulher/quiz-1`}>
                     <div className='btn mulher'>
                         <FaFemale size={20} />
                         <span>Dieta para mulheres</span>
                         <FaAngleRight />
                     </div>
                 </Link>
-                <Link style={{textDecoration: 'none'}} to={'/keto/quiz/homem/quiz-1'}>
+                <Link style={{textDecoration: 'none'}} to={`/${suaurl}/quiz/homem/quiz-1`}>
                     <div className='btn homem'>
                         <FaMale size={20} />
                         <span>Dieta para homens</span>

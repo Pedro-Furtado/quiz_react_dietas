@@ -5,6 +5,7 @@ import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { IoCheckbox } from "react-icons/io5";
 import { FaAngleRight } from "react-icons/fa6";
 import { useEffect, useState } from 'react';
+import suaurl from '../../main';
 
 function QuizType_3({quest, options_1, options_2}) {
     const params = useParams()
@@ -45,7 +46,7 @@ function QuizType_3({quest, options_1, options_2}) {
 
     const pageNumber = parseInt(params.page.split('-')[1], 10);
 
-    let proximaPagina = `/keto/quiz/${params.genero}/quiz-${pageNumber + 1}`;
+    let proximaPagina = `/${suaurl}/quiz/${params.genero}/quiz-${pageNumber + 1}`;
 
     const salvarResposta = () => {
         if(selectedResponses.length > 0){
