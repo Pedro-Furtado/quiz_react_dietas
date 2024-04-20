@@ -13,7 +13,7 @@ import TermosDeUso from './Pages/TermosDeUso/TermosDeUso.jsx';
 import Politicas from './Pages/Politicas/Politicas.jsx';
 import Avaliacoes from './Pages/Avaliacoes/Avaliacoes.jsx';
 
-const suaurl = 'keto'
+const suaurl = 'quiz_react_dietas'
 
 const router = createBrowserRouter([
   {
